@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+/* utility */
+
+.tac{
+    text-align: center;
+}
+.p2{
+    padding: 40px;
+}
+.df{
+    display: flex;
+}
+
+main{
+    font-family: monospace;
+    background: #1d1a1a;
+    color: #fff;
+}
+header{
+    width: 100%;
+    height: 100vh;
+}
+.uo-list{
+    padding: 30px 20px 0px 0px;
+    justify-content: end;
+    list-style-type: none;
+    gap: 40px;
+    
+}
+.uo-list a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.about{
+    flex-direction: column;
+    gap: 20px;
+    margin: 140px 0px 0px 150px;
+    /* margin: 100px 0px 0px  150px; */
+    max-width: 400px;
+
+}
+.about h4{
+    font-size: 15px;
+    margin-top: 10px;
+}
+.about h1{
+    font-size:50px;
+}
+.about P{
+    max-width: 300px;
+    margin-bottom: 10px;
+    line-height: 20px;
+}
+.about a{
+    text-decoration: none;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    max-width: 200px;
+    padding: 10px 15px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+}
+.image{
+    border: 2px ;
+    position: absolute;
+    bottom: 0;
+    right: 130px;
+    filter: drop-shadow(20px 40px 196px rgb(255, 255, 255));
+}
+.image img{
+    /* height: 558px; */
+    filter: grayscale(1);
+}
+.my-skills{
+    width: 100%;
+    height: 100vh;
+}
+.img-Skill{
+    max-width: 550px;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 100px auto;
+}
+/* .Skill img{
+    filter: drop-shadow(20px 40px 196px rgb(255, 255, 255));
+
+} */
+
+
+/* project */
+
+.project{
+    width: 100%;
+    height: 100%;
+}
+.parent{
+    justify-content: space-around;
+    flex-wrap: wrap;
+    row-gap: 50px;
+    column-gap: 40px;
+    padding-bottom: 40px;
+}
+/* .demopj{
+    border-bottom: 1px solid #b375e346;
+    border-right: 1px solid #b375e346;
+    border-left: 1px solid #b375e346;
+    padding-bottom: 20px;
+    border-radius: 50px;
+} */
+.demopj img{
+    width: 500px;
+    height: 300px;
+    border-radius: 5px;
+}
+.demopj>p{
+    margin: 14px 0px;
+    width: 500px;
+    height: fit-content;
+}
+.demopj>h3{
+    margin: 10px;
+    font-size: 30px;
+}
+.btn{
+    width: 90%;
+    justify-content: space-between;
+    margin: auto;
+}
+.btn>a{
+    background: #1D1A1A;
+    border: 1px solid #B475E3;
+    padding: 12px 30px;
+    color: #B475E3;
+    border-radius: 20px;
+    font-weight: 900;
+    text-decoration: none;
+}
+.btn>a:hover{
+    background-color:#B475E3 ;
+    color: #1D1A1A;
+}
