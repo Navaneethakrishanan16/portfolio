@@ -94,8 +94,8 @@ header{
     margin: 100px auto;
 }
 /* .Skill img{
-    filter: drop-shadow(20px 40px 196px rgb(255, 255, 255));
-
+    width: 130px;
+    height: 130px;
 } */
 
 
@@ -220,6 +220,10 @@ header{
         gap: 14px;
         margin: 90px;
         max-width: 230px;
+    }
+    .img-Skill>img{
+        width: 120px;
+        height: 120px;
     }
 
 }
