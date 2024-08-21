@@ -225,5 +225,11 @@ header{
         width: 120px;
         height: 120px;
     }
+    .uo-list {
+        padding: 30px 20px 0px 0px;
+        justify-content: center;
+        list-style-type: none;
+        gap: 20px;
+    }
 
 }
